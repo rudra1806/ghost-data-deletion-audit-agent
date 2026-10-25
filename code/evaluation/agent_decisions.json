@@ -1,0 +1,2768 @@
+[
+ {
+  "group": [
+   {
+    "resource_id": "analytics_901",
+    "chosen": "case_04",
+    "rivals": [
+     "case_85"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "Analytics_901 worker event time (08:47:41) aligns with case_04 processing and case_04 already owns analytics_901 while case_85 phase check fails and audit status is incomplete.",
+    "resource_id": "analytics_901",
+    "case_id": "case_04"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_901"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_04"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_85"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_901"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "Analytics_901 worker event time (08:47:41) aligns with case_04 processing and case_04 already owns analytics_901 while case_85 phase check fails and audit status is incomplete.",
+       "resource_id": "analytics_901",
+       "case_id": "case_04"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_2777",
+    "chosen": "case_107",
+    "rivals": [
+     "case_108",
+     "case_122"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_2777",
+    "reason": "Case case_107 already owns an analytics record in its provisional records or matches all signal rules (system uniqueness, phase check, and complete status).",
+    "case_id": "case_107"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_2777"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_107"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_108"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_122"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_2777",
+       "reason": "Case case_107 already owns an analytics record in its provisional records or matches all signal rules (system uniqueness, phase check, and complete status).",
+       "case_id": "case_107"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_4800",
+    "chosen": "case_113",
+    "rivals": [
+     "case_128",
+     "case_129",
+     "case_130"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_4800",
+    "reason": "case_113 already owns analytics_4800 and is COMPLETE with evidence matching its audit timeline",
+    "case_id": "case_113"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_113"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_128"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_129"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_130"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_4800"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_4800",
+       "reason": "case_113 already owns analytics_4800 and is COMPLETE with evidence matching its audit timeline",
+       "case_id": "case_113"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_8698",
+    "chosen": "case_117",
+    "rivals": [
+     "case_132"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "case_117 is COMPLETE with audit_at after the resource state and matches phase check.",
+    "resource_id": "analytics_8698",
+    "case_id": "case_117"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_117"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_132"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_8698"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "case_117 is COMPLETE with audit_at after the resource state and matches phase check.",
+       "resource_id": "analytics_8698",
+       "case_id": "case_117"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_1402",
+    "chosen": "case_126",
+    "rivals": [
+     "case_127"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_1402",
+    "reason": "Case case_126 already lists analytics_1402 as an owned record in its metadata and matches clock phase and system constraints.",
+    "case_id": "case_126"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_126"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_127"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_1402"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_126"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_1402"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_1402",
+       "reason": "Case case_126 already lists analytics_1402 as an owned record in its metadata and matches clock phase and system constraints.",
+       "case_id": "case_126"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_5023",
+    "chosen": "case_146",
+    "rivals": [
+     "case_148"
+    ]
+   }
+  ],
+  "decision": null,
+  "accepted": false,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_146"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_148"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_5023"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "account_5023"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "activity_2946"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "user_144"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "data_flow_4889"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "data_flow_4889"
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_1626",
+    "chosen": "case_135",
+    "rivals": [
+     "case_151"
+    ]
+   },
+   {
+    "resource_id": "analytics_7254",
+    "chosen": "case_150",
+    "rivals": [
+     "case_151"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_1626",
+    "reason": "analytics_1626 is already owned by case_135 in get_case and phase check supports it.",
+    "case_id": "case_135"
+   },
+   {
+    "case_id": "case_150",
+    "reason": "analytics_7254 is already owned by case_150 in get_case and phase check supports it.",
+    "resource_id": "analytics_7254"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_135"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_150"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_151"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_1626"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_7254"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_1626",
+       "reason": "analytics_1626 is already owned by case_135 in get_case and phase check supports it.",
+       "case_id": "case_135"
+      },
+      {
+       "case_id": "case_150",
+       "reason": "analytics_7254 is already owned by case_150 in get_case and phase check supports it.",
+       "resource_id": "analytics_7254"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_7372",
+    "chosen": "case_155",
+    "rivals": [
+     "case_157",
+     "case_172"
+    ]
+   },
+   {
+    "resource_id": "analytics_8425",
+    "chosen": "case_157",
+    "rivals": [
+     "case_171",
+     "case_172"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_7372",
+    "reason": "case_155 already owns analytics_7372 and verified as complete.",
+    "case_id": "case_155"
+   },
+   {
+    "resource_id": "analytics_8425",
+    "reason": "case_157 already owns analytics_8425 and verified as complete.",
+    "case_id": "case_157"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_155"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_157"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_171"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_172"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_7372"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_8425"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_7372",
+       "reason": "case_155 already owns analytics_7372 and verified as complete.",
+       "case_id": "case_155"
+      },
+      {
+       "resource_id": "analytics_8425",
+       "reason": "case_157 already owns analytics_8425 and verified as complete.",
+       "case_id": "case_157"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_7015",
+    "chosen": "case_547",
+    "rivals": [
+     "case_548"
+    ]
+   },
+   {
+    "resource_id": "analytics_5335",
+    "chosen": "case_21",
+    "rivals": [
+     "case_547"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_547",
+    "reason": "case_547 owns account_7015 in its owned records list and matches the case relationship.",
+    "resource_id": "account_7015"
+   },
+   {
+    "case_id": "case_21",
+    "resource_id": "analytics_5335",
+    "reason": "case_21 owns analytics_5335 in its owned records list and matches the case relationship."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_547"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_548"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_21"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_7015"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_5335"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_547",
+       "reason": "case_547 owns account_7015 in its owned records list and matches the case relationship.",
+       "resource_id": "account_7015"
+      },
+      {
+       "case_id": "case_21",
+       "resource_id": "analytics_5335",
+       "reason": "case_21 owns analytics_5335 in its owned records list and matches the case relationship."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_4460",
+    "chosen": "case_213",
+    "rivals": [
+     "case_228"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "case_213 provisional_status is COMPLETE and evidence is observed before its audit time (2026-07-03T08:00:00+00:00), matching the record's final state observations.",
+    "case_id": "case_213",
+    "resource_id": "analytics_4460"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_213"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_228"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_4460"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_4460"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "case_213 provisional_status is COMPLETE and evidence is observed before its audit time (2026-07-03T08:00:00+00:00), matching the record's final state observations.",
+       "case_id": "case_213",
+       "resource_id": "analytics_4460"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_2504",
+    "chosen": "case_215",
+    "rivals": [
+     "case_230",
+     "case_232"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_215",
+    "resource_id": "analytics_2504",
+    "reason": "case_215 already owns analytics_2504 and is COMPLETE with a valid phase check."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_2504"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_215"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_230"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_232"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_215",
+       "resource_id": "analytics_2504",
+       "reason": "case_215 already owns analytics_2504 and is COMPLETE with a valid phase check."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_257",
+    "chosen": "case_218",
+    "rivals": [
+     "case_219"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "Confirmed via matcher choice, phase check, and ownership consistency.",
+    "case_id": "case_218",
+    "resource_id": "analytics_257"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_218"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_219"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_257"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "case_218"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "case_219"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_218"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "Confirmed via matcher choice, phase check, and ownership consistency.",
+       "case_id": "case_218",
+       "resource_id": "analytics_257"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_392",
+    "chosen": "case_225",
+    "rivals": [
+     "case_226"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_225",
+    "reason": "case_225 currently owns account_392 and matches the activity and system requirements.",
+    "resource_id": "account_392"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_225"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_226"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_392"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "account_392"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_225",
+       "reason": "case_225 currently owns account_392 and matches the activity and system requirements.",
+       "resource_id": "account_392"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_6723",
+    "chosen": "case_233",
+    "rivals": [
+     "case_235"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_6723",
+    "case_id": "case_233",
+    "reason": "analytics_6723 is already owned by case_233 and verified complete with in-phase deletion check."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_233"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_235"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_6723"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_6723"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_6723",
+       "case_id": "case_233",
+       "reason": "analytics_6723 is already owned by case_233 and verified complete with in-phase deletion check."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_7650",
+    "chosen": "case_243",
+    "rivals": [
+     "case_244"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_243",
+    "resource_id": "account_7650",
+    "reason": "case_243 already currently owns account_7650 and rule 2 states a case already owning a record of the same system cannot take another, plus provisional status and matching are consistent with case_243."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_243"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_244"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_7650"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "account_7650"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_243"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_243",
+       "resource_id": "account_7650",
+       "reason": "case_243 already currently owns account_7650 and rule 2 states a case already owning a record of the same system cannot take another, plus provisional status and matching are consistent with case_243."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_1895",
+    "chosen": "case_25",
+    "rivals": [
+     "case_26"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_1895",
+    "case_id": "case_25",
+    "reason": "case_25 already lists analytics_1895 in owned_records and passes phase check."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_25"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_26"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_1895"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_1895"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_1895",
+       "case_id": "case_25",
+       "reason": "case_25 already lists analytics_1895 in owned_records and passes phase check."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_6136",
+    "chosen": "case_253",
+    "rivals": [
+     "case_268"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_253",
+    "reason": "case_253 already owns analytics_6136 in its records list and matches phase timing and COMPLETE status.",
+    "resource_id": "analytics_6136"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_253"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_268"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_6136"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_253",
+       "reason": "case_253 already owns analytics_6136 in its records list and matches phase timing and COMPLETE status.",
+       "resource_id": "analytics_6136"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "legal_hold_1745",
+    "chosen": "case_273",
+    "rivals": [
+     "case_287",
+     "case_289"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "legal_hold_1745",
+    "case_id": "case_273",
+    "reason": "case_273 already owns legal_hold_1745 (existing owned_records list contains legal_hold_1745)"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "legal_hold_1745"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_273"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_287"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_289"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "legal_hold_1745"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "legal_hold_1745",
+       "case_id": "case_273",
+       "reason": "case_273 already owns legal_hold_1745 (existing owned_records list contains legal_hold_1745)"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_5923",
+    "chosen": "case_276",
+    "rivals": [
+     "case_277"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_276",
+    "reason": "case_276 owns a record of system analytics_platform (analytics_5923), phase check confirms in_phase, and evidence observations match the complete audit state.",
+    "resource_id": "analytics_5923"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_276"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_277"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_5923"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_278"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_5923"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_276",
+       "reason": "case_276 owns a record of system analytics_platform (analytics_5923), phase check confirms in_phase, and evidence observations match the complete audit state.",
+       "resource_id": "analytics_5923"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_6996",
+    "chosen": "case_294",
+    "rivals": [
+     "case_295"
+    ]
+   },
+   {
+    "resource_id": "analytics_096",
+    "chosen": "case_294",
+    "rivals": [
+     "case_295",
+     "case_308"
+    ]
+   },
+   {
+    "resource_id": "analytics_3678",
+    "chosen": "case_295",
+    "rivals": [
+     "case_308",
+     "case_309"
+    ]
+   },
+   {
+    "resource_id": "analytics_7575",
+    "chosen": "case_308",
+    "rivals": [
+     "case_309"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_294",
+    "reason": "Matcher choice and rule constraints: account_6996 assigned to case_294.",
+    "resource_id": "account_6996"
+   },
+   {
+    "case_id": "case_294",
+    "resource_id": "analytics_096",
+    "reason": "In phase for case_294 and matches matcher choice."
+   },
+   {
+    "resource_id": "analytics_3678",
+    "reason": "In phase for case_295 and matches matcher choice.",
+    "case_id": "case_295"
+   },
+   {
+    "reason": "Owned record of case_308 and matches matcher choice.",
+    "resource_id": "analytics_7575",
+    "case_id": "case_308"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_294"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_295"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_308"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_309"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_6996"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_096"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_3678"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_7575"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_096"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_3678"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_7575"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "account_6996"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_294",
+       "reason": "Matcher choice and rule constraints: account_6996 assigned to case_294.",
+       "resource_id": "account_6996"
+      },
+      {
+       "case_id": "case_294",
+       "resource_id": "analytics_096",
+       "reason": "In phase for case_294 and matches matcher choice."
+      },
+      {
+       "resource_id": "analytics_3678",
+       "reason": "In phase for case_295 and matches matcher choice.",
+       "case_id": "case_295"
+      },
+      {
+       "reason": "Owned record of case_308 and matches matcher choice.",
+       "resource_id": "analytics_7575",
+       "case_id": "case_308"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_3108",
+    "chosen": "case_335",
+    "rivals": [
+     "case_350",
+     "case_352"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_335",
+    "reason": "Case 335 already lists analytics_3108 as an owned record and has a COMPLETE provisional status matching the record state.",
+    "resource_id": "analytics_3108"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_3108"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_335"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_350"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_352"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_335",
+       "reason": "Case 335 already lists analytics_3108 as an owned record and has a COMPLETE provisional status matching the record state.",
+       "resource_id": "analytics_3108"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_1072",
+    "chosen": "case_336",
+    "rivals": [
+     "case_351"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_1072",
+    "case_id": "case_336",
+    "reason": "Phase check confirms in_phase and matcher choice, and case_351 already owns an analytics system record (though let's check: case_336 owns analytics_1072 currently per get_case)."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_336"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_351"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_1072"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_1072",
+       "case_id": "case_336",
+       "reason": "Phase check confirms in_phase and matcher choice, and case_351 already owns an analytics system record (though let's check: case_336 owns analytics_1072 currently per get_case)."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_5214",
+    "chosen": "case_345",
+    "rivals": [
+     "case_346"
+    ]
+   },
+   {
+    "resource_id": "analytics_3990",
+    "chosen": "case_345",
+    "rivals": [
+     "case_346"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "account_5214",
+    "case_id": "case_345",
+    "reason": "account_5214 belongs to case_345 as per case ownership and matcher choice."
+   },
+   {
+    "reason": "analytics_3990 belongs to case_345 as per case ownership and matcher choice.",
+    "resource_id": "analytics_3990",
+    "case_id": "case_345"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_345"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_346"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_5214"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_3990"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "case_345"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "case_346"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "account_5214"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_3990"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "account_5214",
+       "case_id": "case_345",
+       "reason": "account_5214 belongs to case_345 as per case ownership and matcher choice."
+      },
+      {
+       "reason": "analytics_3990 belongs to case_345 as per case ownership and matcher choice.",
+       "resource_id": "analytics_3990",
+       "case_id": "case_345"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_9394",
+    "chosen": "case_374",
+    "rivals": [
+     "case_375"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_9394",
+    "reason": "case_374 already lists analytics_9394 in its owned records and passes phase verification.",
+    "case_id": "case_374"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_374"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_375"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_9394"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_9394",
+       "reason": "case_374 already lists analytics_9394 in its owned records and passes phase verification.",
+       "case_id": "case_374"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_5754",
+    "chosen": "case_408",
+    "rivals": [
+     "case_409"
+    ]
+   },
+   {
+    "resource_id": "analytics_542",
+    "chosen": "case_393",
+    "rivals": [
+     "case_408",
+     "case_409"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "case_408 already owns account_5754",
+    "resource_id": "account_5754",
+    "case_id": "case_408"
+   },
+   {
+    "case_id": "case_393",
+    "reason": "case_393 already owns analytics_542",
+    "resource_id": "analytics_542"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_408"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_409"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_393"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_5754"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_542"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "case_408 already owns account_5754",
+       "resource_id": "account_5754",
+       "case_id": "case_408"
+      },
+      {
+       "case_id": "case_393",
+       "reason": "case_393 already owns analytics_542",
+       "resource_id": "analytics_542"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_2775",
+    "chosen": "case_411",
+    "rivals": [
+     "case_412"
+    ]
+   },
+   {
+    "resource_id": "analytics_298",
+    "chosen": "case_395",
+    "rivals": [
+     "case_411",
+     "case_412"
+    ]
+   },
+   {
+    "resource_id": "analytics_4651",
+    "chosen": "case_396",
+    "rivals": [
+     "case_397",
+     "case_411"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "account_2775 is already owned by case_411.",
+    "case_id": "case_411",
+    "resource_id": "account_2775"
+   },
+   {
+    "reason": "analytics_298 worker event time and phase checks align with case_395.",
+    "resource_id": "analytics_298",
+    "case_id": "case_395"
+   },
+   {
+    "resource_id": "analytics_4651",
+    "reason": "analytics_4651 worker event time and phase checks align with case_396.",
+    "case_id": "case_396"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_395"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_396"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_397"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_411"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_412"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_2775"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_298"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_4651"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "account_2775 is already owned by case_411.",
+       "case_id": "case_411",
+       "resource_id": "account_2775"
+      },
+      {
+       "reason": "analytics_298 worker event time and phase checks align with case_395.",
+       "resource_id": "analytics_298",
+       "case_id": "case_395"
+      },
+      {
+       "resource_id": "analytics_4651",
+       "reason": "analytics_4651 worker event time and phase checks align with case_396.",
+       "case_id": "case_396"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_6249",
+    "chosen": "case_423",
+    "rivals": [
+     "case_424"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_6249",
+    "case_id": "case_423",
+    "reason": "case_423 currently owns analytics_6249 in its record list and is verified complete with matching phase check and resource observations."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_423"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_424"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_6249"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_6249"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_6249",
+       "case_id": "case_423",
+       "reason": "case_423 currently owns analytics_6249 in its record list and is verified complete with matching phase check and resource observations."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_8091",
+    "chosen": "case_427",
+    "rivals": [
+     "case_442"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "Case 427 currently owns analytics_8091 and is marked COMPLETE with valid phase checks.",
+    "resource_id": "analytics_8091",
+    "case_id": "case_427"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_427"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_442"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_8091"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_8091"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "Case 427 currently owns analytics_8091 and is marked COMPLETE with valid phase checks.",
+       "resource_id": "analytics_8091",
+       "case_id": "case_427"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_6750",
+    "chosen": "case_456",
+    "rivals": [
+     "case_471"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "case_456 already owns analytics_6750 in its records list and satisfies the phase check.",
+    "resource_id": "analytics_6750",
+    "case_id": "case_456"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_6750"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_456"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_471"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_6750"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "case_456 already owns analytics_6750 in its records list and satisfies the phase check.",
+       "resource_id": "analytics_6750",
+       "case_id": "case_456"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_1126",
+    "chosen": "case_457",
+    "rivals": [
+     "case_472"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "Case 457 owns analytics_1126, achieves COMPLETE status, and aligns with the resource's phase check and observation window.",
+    "resource_id": "analytics_1126",
+    "case_id": "case_457"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_457"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_472"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_1126"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_457"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_1126"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "Case 457 owns analytics_1126, achieves COMPLETE status, and aligns with the resource's phase check and observation window.",
+       "resource_id": "analytics_1126",
+       "case_id": "case_457"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_9447",
+    "chosen": "case_47",
+    "rivals": [
+     "case_48",
+     "case_49"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_47",
+    "resource_id": "analytics_9447",
+    "reason": "case_47 already owns analytics_9447 as reported in its owned records list, and worker event matches the activity window."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_9447"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_47"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_48"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_49"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_9447"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_47",
+       "resource_id": "analytics_9447",
+       "reason": "case_47 already owns analytics_9447 as reported in its owned records list, and worker event matches the activity window."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_5893",
+    "chosen": "case_493",
+    "rivals": [
+     "case_508"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "case_493 already lists analytics_5893 in its owned records and passes phase check with in_phase true.",
+    "case_id": "case_493",
+    "resource_id": "analytics_5893"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_493"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_508"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_5893"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "case_493 already lists analytics_5893 in its owned records and passes phase check with in_phase true.",
+       "case_id": "case_493",
+       "resource_id": "analytics_5893"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_5443",
+    "chosen": "case_494",
+    "rivals": [
+     "case_510",
+     "case_511"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "case_494 already owns analytics_5443 and is verified as COMPLETE with matching phase check.",
+    "case_id": "case_494",
+    "resource_id": "analytics_5443"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_5443"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_494"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_510"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_511"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "case_494 already owns analytics_5443 and is verified as COMPLETE with matching phase check.",
+       "case_id": "case_494",
+       "resource_id": "analytics_5443"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_1558",
+    "chosen": "case_497",
+    "rivals": [
+     "case_512"
+    ]
+   },
+   {
+    "resource_id": "analytics_6565",
+    "chosen": "case_498",
+    "rivals": [
+     "case_499",
+     "case_512"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_1558",
+    "case_id": "case_497",
+    "reason": "analytics_1558 belongs to case_497 (already owned/matched)."
+   },
+   {
+    "case_id": "case_498",
+    "reason": "analytics_6565 belongs to case_498 (already owned/matched).",
+    "resource_id": "analytics_6565"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_497"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_512"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_498"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_499"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_1558"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_6565"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_1558",
+       "case_id": "case_497",
+       "reason": "analytics_1558 belongs to case_497 (already owned/matched)."
+      },
+      {
+       "case_id": "case_498",
+       "reason": "analytics_6565 belongs to case_498 (already owned/matched).",
+       "resource_id": "analytics_6565"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_893",
+    "chosen": "case_530",
+    "rivals": [
+     "case_532"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_530",
+    "resource_id": "analytics_893",
+    "reason": "Case 530 already owns analytics_893 and matcher choice aligns with it."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_530"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_532"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_893"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_893"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_530"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_530",
+       "resource_id": "analytics_893",
+       "reason": "Case 530 already owns analytics_893 and matcher choice aligns with it."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_8931",
+    "chosen": "case_543",
+    "rivals": [
+     "case_544"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_543",
+    "reason": "Case 543 already lists account_8931 in its owned records and holds provisional COMPLETE status.",
+    "resource_id": "account_8931"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_543"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_544"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_8931"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "account_8931"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_543",
+       "reason": "Case 543 already lists account_8931 in its owned records and holds provisional COMPLETE status.",
+       "resource_id": "account_8931"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_4842",
+    "chosen": "case_549",
+    "rivals": [
+     "case_550"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_549",
+    "reason": "case_549 already provisionally owns account_4842 and is COMPLETE with the required record state.",
+    "resource_id": "account_4842"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_549"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_550"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_4842"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "account_4842"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_549",
+       "reason": "case_549 already provisionally owns account_4842 and is COMPLETE with the required record state.",
+       "resource_id": "account_4842"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_8858",
+    "chosen": "case_57",
+    "rivals": [
+     "case_72"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_57",
+    "resource_id": "analytics_8858",
+    "reason": "case_57 is COMPLETE at audit_at with confirmed resource state and in-phase worker event matching case deletion clock."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_8858"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_57"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_72"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "analytics_8858"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_57",
+       "resource_id": "analytics_8858",
+       "reason": "case_57 is COMPLETE at audit_at with confirmed resource state and in-phase worker event matching case deletion clock."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "account_631",
+    "chosen": "case_59",
+    "rivals": [
+     "case_60"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "reason": "case_59 already owns account_631 in its list of owned_records and is the matcher choice.",
+    "resource_id": "account_631",
+    "case_id": "case_59"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_59"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_60"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "account_631"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "account_631"
+    }
+   },
+   {
+    "tool": "search_evidence",
+    "args": {
+     "token": "case_59"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "reason": "case_59 already owns account_631 in its list of owned_records and is the matcher choice.",
+       "resource_id": "account_631",
+       "case_id": "case_59"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_1161",
+    "chosen": "case_73",
+    "rivals": [
+     "case_88"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_73",
+    "reason": "case_73 already owns analytics_1161 as reported in get_case owned_records, and has provisional_status COMPLETE matching evidence observations.",
+    "resource_id": "analytics_1161"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_73"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_88"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_1161"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_73",
+       "reason": "case_73 already owns analytics_1161 as reported in get_case owned_records, and has provisional_status COMPLETE matching evidence observations.",
+       "resource_id": "analytics_1161"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "analytics_5859",
+    "chosen": "case_77",
+    "rivals": [
+     "case_79",
+     "case_92"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "resource_id": "analytics_5859",
+    "case_id": "case_77",
+    "reason": "case_77 already owns analytics_5859 and the matcher choice correctly aligns with phase and owned records."
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_77"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_79"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_92"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "analytics_5859"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "resource_id": "analytics_5859",
+       "case_id": "case_77",
+       "reason": "case_77 already owns analytics_5859 and the matcher choice correctly aligns with phase and owned records."
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "group": [
+   {
+    "resource_id": "legal_hold_668",
+    "chosen": "case_98",
+    "rivals": [
+     "case_100"
+    ]
+   }
+  ],
+  "decision": [
+   {
+    "case_id": "case_98",
+    "reason": "case_98 already lists legal_hold_668 in its owned records and matches the deletion worker events.",
+    "resource_id": "legal_hold_668"
+   }
+  ],
+  "accepted": true,
+  "tool_calls": [
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_100"
+    }
+   },
+   {
+    "tool": "get_case",
+    "args": {
+     "case_id": "case_98"
+    }
+   },
+   {
+    "tool": "get_resource",
+    "args": {
+     "resource_id": "legal_hold_668"
+    }
+   },
+   {
+    "tool": "submit_decision",
+    "args": {
+     "assignments": [
+      {
+       "case_id": "case_98",
+       "reason": "case_98 already lists legal_hold_668 in its owned records and matches the deletion worker events.",
+       "resource_id": "legal_hold_668"
+      }
+     ]
+    }
+   }
+  ]
+ }
+]
