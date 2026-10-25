@@ -1,0 +1,661 @@
+{
+  "evidence_04": {
+    "records": [
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "haruka.s1838@zoho.com"
+        ],
+        "label": "Haruka Sato",
+        "names": [
+          "Haruka Sato"
+        ],
+        "phones": [
+          "+81 90 7610 2507"
+        ],
+        "resource_id": "account_5762",
+        "restore": "UNKNOWN",
+        "status_text": "Silver",
+        "user_refs": [
+          "user_11"
+        ]
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "ORD-20265762",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "Delivered \u00b7 18 Sep",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "ORD-20265518",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "Returned \u00b7 03 Sep",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "CS-8538",
+        "names": [],
+        "phones": [],
+        "resource_id": "support_9538",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      }
+    ],
+    "screen_title": "Customer Operations"
+  },
+  "evidence_09": {
+    "captured_text": "01 Sep 2026 06:00:14 UTC",
+    "records": [
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "g.silva76@gmail.com"
+        ],
+        "label": "search_428",
+        "names": [
+          "Gabriel Silva"
+        ],
+        "phones": [],
+        "resource_id": "search_428",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": [
+          "user_13"
+        ]
+      },
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "g.silva76.jr@gmail.com"
+        ],
+        "label": "search_1874",
+        "names": [],
+        "phones": [],
+        "resource_id": "search_1874",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      }
+    ],
+    "screen_title": "Customer Search"
+  },
+  "evidence_14": {
+    "captured_text": "07 Aug 2026 08:00 UTC",
+    "records": [
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "jain.aditi@gmail.com"
+        ],
+        "label": "data_flow_1121",
+        "names": [],
+        "phones": [],
+        "resource_id": "data_flow_1121",
+        "restore": "UNKNOWN",
+        "status_text": "Healthy",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "lucia-torres@gmail.com"
+        ],
+        "label": "data_flow_9846",
+        "names": [],
+        "phones": [],
+        "resource_id": "data_flow_9846",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Order notifications",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Delivery tracking",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      }
+    ],
+    "screen_title": "Connections"
+  },
+  "evidence_19": {
+    "records": [
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "darwish.omar@icloud.com"
+        ],
+        "label": "Omar Darwish",
+        "names": [
+          "Omar Darwish"
+        ],
+        "resource_id": "analytics_7438",
+        "restore": "UNKNOWN",
+        "status_text": "Returning shopper",
+        "user_refs": [
+          "user_20"
+        ]
+      }
+    ],
+    "screen_title": "Omar Darwish"
+  },
+  "evidence_23": {
+    "captured_text": "Updated moments ago \u00b7 4 records",
+    "records": [
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "marcus.lee@northstar.shop"
+        ],
+        "label": "export_1261",
+        "names": [],
+        "resource_id": "export_1261",
+        "restore": "UNKNOWN",
+        "status_text": "Collecting",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "ingrid.dahl@outlook.com"
+        ],
+        "label": "export_1260",
+        "names": [],
+        "resource_id": "export_1260",
+        "restore": "UNKNOWN",
+        "status_text": "Ready",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "sara.kim@northstar.shop"
+        ],
+        "label": "export_1259",
+        "names": [],
+        "resource_id": "export_1259",
+        "restore": "UNKNOWN",
+        "status_text": "Packaging",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "daniel.park@northstar.shop"
+        ],
+        "label": "export_1258",
+        "names": [],
+        "resource_id": "export_1258",
+        "restore": "UNKNOWN",
+        "status_text": "Ready",
+        "user_refs": []
+      }
+    ],
+    "screen_title": "Data exports"
+  },
+  "evidence_28": {
+    "records": [
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "kagyeman8947@fastmail.com"
+        ],
+        "label": "CS-5034",
+        "names": [
+          "Kofi Agyeman",
+          "Maya Chen"
+        ],
+        "resource_id": "support_1034",
+        "restore": "UNKNOWN",
+        "status_text": "Normal priority",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": true,
+        "emails": [],
+        "label": "ORD-20265034",
+        "names": [
+          "Maya Chen"
+        ],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "In transit",
+        "user_refs": []
+      }
+    ],
+    "screen_title": "Helpline Console"
+  },
+  "evidence_32": {
+    "captured_text": "Updated moments ago \u00b7 4 records",
+    "records": [
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "bluepeakco@outlook.com"
+        ],
+        "label": "backup_9291",
+        "names": [],
+        "resource_id": "backup_9291",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "miller.logistics@company.com"
+        ],
+        "label": "backup_9288",
+        "names": [],
+        "resource_id": "backup_9288",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "areed1433@gmail.com"
+        ],
+        "label": "backup_9287",
+        "names": [],
+        "resource_id": "backup_9287",
+        "restore": "UNKNOWN",
+        "status_text": "Verified",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "summit-retail@company.com"
+        ],
+        "label": "backup_9286",
+        "names": [],
+        "resource_id": "backup_9286",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      }
+    ],
+    "screen_title": "Customer-platform archives"
+  },
+  "evidence_37": {
+    "captured_text": "Subject filter: user_03 \u00b7 18\u201326 Aug 2026 UTC",
+    "records": [
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "audit_record_003",
+        "names": [],
+        "phones": [],
+        "resource_id": "audit_record_003",
+        "restore": "UNKNOWN",
+        "status_text": "Valid",
+        "user_refs": [
+          "user_03"
+        ]
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "audit_record_002",
+        "names": [],
+        "phones": [],
+        "resource_id": "audit_record_002",
+        "restore": "UNKNOWN",
+        "status_text": "Valid",
+        "user_refs": [
+          "user_03"
+        ]
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "audit_record_001",
+        "names": [],
+        "phones": [],
+        "resource_id": "audit_record_001",
+        "restore": "UNKNOWN",
+        "status_text": "Valid",
+        "user_refs": [
+          "user_03"
+        ]
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "audit_record_006",
+        "names": [],
+        "phones": [],
+        "resource_id": "audit_record_006",
+        "restore": "UNKNOWN",
+        "status_text": "Valid",
+        "user_refs": [
+          "user_03"
+        ]
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "audit_record_005",
+        "names": [],
+        "phones": [],
+        "resource_id": "audit_record_005",
+        "restore": "UNKNOWN",
+        "status_text": "Valid",
+        "user_refs": [
+          "user_03"
+        ]
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "audit_record_004",
+        "names": [],
+        "phones": [],
+        "resource_id": "audit_record_004",
+        "restore": "UNKNOWN",
+        "status_text": "Valid",
+        "user_refs": [
+          "user_03"
+        ]
+      }
+    ],
+    "screen_title": "Account events"
+  },
+  "evidence_42": {
+    "records": [
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "user_17",
+        "names": [],
+        "phones": [],
+        "resource_id": "user_17",
+        "restore": "UNKNOWN",
+        "status_text": "Retained reference",
+        "user_refs": [
+          "user_17"
+        ]
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "ORD-20263245",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "Active",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "CS-3245",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "Active",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "CS-3378",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "Active",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "FIN-7742",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "Active",
+        "user_refs": []
+      }
+    ],
+    "screen_title": "Customer Reference Registry"
+  },
+  "evidence_46": {
+    "captured_text": "13 Feb 2026 08:00 UTC",
+    "records": [
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "delivery_confirmation_19.pdf",
+        "names": [],
+        "phones": [],
+        "resource_id": "delivery_confirmation_19",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "delivery_confirmation_20.pdf",
+        "names": [],
+        "phones": [],
+        "resource_id": "delivery_confirmation_20",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "return_label_4821.pdf",
+        "names": [],
+        "phones": [],
+        "resource_id": "return_label_4821",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "return_label_4876.pdf",
+        "names": [],
+        "phones": [],
+        "resource_id": "return_label_4876",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "invoice_NS-10493.pdf",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "parcel_damage_7713.jpg",
+        "names": [],
+        "phones": [],
+        "resource_id": "parcel_damage_7713",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "customer_export_2026-02-10.zip",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "customer_export_2026-02-12.zip",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      }
+    ],
+    "screen_title": "northstar-customer-data"
+  },
+  "evidence_60": {
+    "captured_text": "15 Sep 2026 23:40 UTC",
+    "records": [
+      {
+        "direct_identifiers_shown": true,
+        "emails": [
+          "sj.park@naver.com"
+        ],
+        "label": "Soo-jin Park",
+        "names": [
+          "Soo-jin Park"
+        ],
+        "phones": [
+          "+82 10-5837-9451"
+        ],
+        "resource_id": "marketing_001",
+        "restore": "UNKNOWN",
+        "status_text": "Live",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Product-category update",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Campaign eligibility check",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "Eligible",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Profile refresh",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Audience evaluation",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Returning customers \u2014 East Asia",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Autumn offers",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Home & Lifestyle Picks",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "",
+        "user_refs": []
+      },
+      {
+        "direct_identifiers_shown": false,
+        "emails": [],
+        "label": "Profile refreshed from live data",
+        "names": [],
+        "phones": [],
+        "resource_id": "",
+        "restore": "UNKNOWN",
+        "status_text": "Recorded",
+        "user_refs": []
+      }
+    ],
+    "screen_title": "Audience Operations"
+  }
+}
